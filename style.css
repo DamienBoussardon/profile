@@ -1,0 +1,110 @@
+@media (max-width: 1920px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 1000px;
+  }
+  #movies img {
+    width:220px;
+    height:260px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+  #movies img {
+    width:180px;
+    height:220px;
+  }
+}
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+  #movies img {
+    width:160px;
+    height:200px;
+  }
+
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+  #movies img {
+    width:120px;
+    height:160px;
+  }
+  td h3 {
+    text-align: center;
+  }
+}
+
+
+p{
+  text-align: justify;
+}
+
+body {
+  background-color: rgb(230,230,230);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+h1 {
+  color: rgb(240, 37, 10);
+}
+a {
+  text-decoration: none;
+  color: rgb(200,200,200);
+}
+a:hover {
+  color: rgb(240, 37, 10);
+}
+ul {
+  margin:0;
+  padding: 0;
+  list-style-type: none;
+}
+.card {
+  background-color: rgb(245,245,245);
+  border-radius: 4px;
+  padding: 30px;
+  margin: 15px auto;
+}
+.text-align {
+  text-align: center;
+}
+.list-social li {
+  display: inline-block;
+}
+#li-center {
+  margin: 0 50px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-social a{
+  font-size: 2.4em;
+}
+
+tr {
+  /*height: 150px;*/
+  display: block;
+  margin-bottom: 20px;
+}
+td {
+  /*height: 100px;*/
+
+}
+td h3 {
+  margin-left: 10px;
+}
+td p {
+  margin-left: 20px;
+}
+.footer li {
+  margin-bottom: 7px;
+}
